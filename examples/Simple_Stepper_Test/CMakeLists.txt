@@ -1,0 +1,4 @@
+INCLUDE_DIRECTORIES(${INCLUDE_DIR})
+
+ADD_EXECUTABLE(Simple_Stepper_Test Simple_Stepper_Test.cpp)
+TARGET_LINK_LIBRARIES(Simple_Stepper_Test LINK_PUBLIC Adafruit_Motor_Shield)

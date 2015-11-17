@@ -1,0 +1,7 @@
+#add_subdirectory(Accel_ConstantSpeed)
+#add_subdirectory(Accel_MultiStepper)
+#add_subdirectory(DCMotorTest)
+#add_subdirectory(MotorParty)
+#add_subdirectory(StackingTest)
+add_subdirectory(StepperTest)
+add_subdirectory(Simple_Stepper_Test)

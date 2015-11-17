@@ -1,0 +1,3 @@
+ADD_EXECUTABLE(Stepper_Test Stepper_Test.cpp)
+
+TARGET_LINK_LIBRARIES(Stepper_Test LINK_PUBLIC Adafruit_Motor_Shield)
